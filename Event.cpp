@@ -102,7 +102,7 @@ QString* hookSpace::TEvent::convert(){
     if(xmlWriter->hasError())
         return 0;
     qDebug() << "Element XML: " << eventXml;
-    hookSpace::writeFile(eventXml);
+    //hookSpace::writeFile(eventXml);
     return eventXml;
 }
 
@@ -110,11 +110,11 @@ QJsonObject* hookSpace::TEvent::convertToJSON(){
     qDebug() << "start convert json" << endl;
     QJsonObject *eventJson = new QJsonObject();
     qDebug() << "count screen: " << imageNames->count();
-    qDebug() << "screen: " << imageNames->first()->split("/").at(4) + "/" + imageNames->first()->split("/").at(5) << endl;
+    qDebug() << "screen: " << imageNames->first()->split("/").at(5) + "/" + imageNames->first()->split("/").at(6) << endl;
 
-    eventJson->insert("pictureLink",imageNames->first()->split("/").at(4) + "/" + imageNames->first()->split("/").at(5));
+    eventJson->insert("pictureLink",imageNames->first()->split("/").at(5) + "/" + imageNames->first()->split("/").at(6));
     if (imageNames->count()>1){
-        eventJson->insert("pictureReleaseLink",imageNames->last()->split("/").at(4) + "/" + imageNames->last()->split("/").at(5));
+        eventJson->insert("pictureReleaseLink",imageNames->last()->split("/").at(5) + "/" + imageNames->last()->split("/").at(6));
     }
     qDebug() << "cont start convert json: "<< eventJson << endl;
     this->convertSpecificToJson(eventJson);

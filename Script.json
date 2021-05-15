@@ -3,10 +3,10 @@
         {
             "actionSwitch": {
                 "actionId": 1,
-                "xLeft": 486.43359375,
-                "xRight": 536.43359375,
-                "yLeft": 114.53125,
-                "yRight": 164.53125
+                "xLeft": 634.44921875,
+                "xRight": 684.44921875,
+                "yLeft": 33.5546875,
+                "yRight": 83.5546875
             },
             "frameNumber": 1,
             "pictureLink": "Images/MouseEvent0.png"
@@ -14,46 +14,119 @@
         {
             "actionSwitch": {
                 "actionId": 1,
-                "xLeft": 484.43359375,
-                "xRight": 534.43359375,
-                "yLeft": 147.5546875,
-                "yRight": 197.5546875
+                "xLeft": 161.46484375,
+                "xRight": 211.46484375,
+                "yLeft": 611.51171875,
+                "yRight": 661.51171875
             },
             "frameNumber": 2,
             "pictureLink": "Images/MouseEvent1.png"
         },
         {
             "actionSwitch": {
-                "actionId": 1,
-                "xLeft": 807.41796875,
-                "xRight": 857.41796875,
-                "yLeft": 12.5546875,
-                "yRight": 62.5546875
+                "actionId": 12,
+                "key": "H",
+                "modKey": "Shift"
             },
             "frameNumber": 3,
-            "pictureLink": "Images/MouseEvent2.png"
+            "pictureLink": "Images/KeyBoardEvent1.png"
         },
         {
             "actionSwitch": {
-                "actionId": 1,
-                "xLeft": 463.46484375,
-                "xRight": 513.46484375,
-                "yLeft": 110.5703125,
-                "yRight": 160.5703125
+                "actionId": 9,
+                "key": "E"
             },
             "frameNumber": 4,
-            "pictureLink": "Images/MouseEvent3.png"
+            "pictureLink": "Images/KeyBoardEvent2.png"
         },
         {
             "actionSwitch": {
-                "actionId": 5,
-                "xLeft": 463.46484375,
-                "xRight": 513.46484375,
-                "yLeft": 112.5625,
-                "yRight": 162.5625
+                "actionId": 9,
+                "key": "L"
             },
             "frameNumber": 5,
-            "pictureLink": "Images/MouseEvent4.png"
+            "pictureLink": "Images/KeyBoardEvent3.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "L"
+            },
+            "frameNumber": 6,
+            "pictureLink": "Images/KeyBoardEvent4.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "O"
+            },
+            "frameNumber": 7,
+            "pictureLink": "Images/KeyBoardEvent5.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "Space"
+            },
+            "frameNumber": 8,
+            "pictureLink": "Images/KeyBoardEvent6.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "W"
+            },
+            "frameNumber": 9,
+            "pictureLink": "Images/KeyBoardEvent7.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "O"
+            },
+            "frameNumber": 10,
+            "pictureLink": "Images/KeyBoardEvent8.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "R"
+            },
+            "frameNumber": 11,
+            "pictureLink": "Images/KeyBoardEvent9.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "L"
+            },
+            "frameNumber": 12,
+            "pictureLink": "Images/KeyBoardEvent10.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "D"
+            },
+            "frameNumber": 13,
+            "pictureLink": "Images/KeyBoardEvent11.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 12,
+                "key": "D1",
+                "modKey": "Shift"
+            },
+            "frameNumber": 14,
+            "pictureLink": "Images/KeyBoardEvent13.png"
+        },
+        {
+            "actionSwitch": {
+                "actionId": 9,
+                "key": "Return"
+            },
+            "frameNumber": 15,
+            "pictureLink": "Images/KeyBoardEvent14.png"
         }
     ],
     "pictureHeight": 768,

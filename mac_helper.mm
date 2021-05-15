@@ -109,7 +109,7 @@ void hookSpace::THookMouse::signalProcessing(void *event_data){
         if (timerRun && dynamic_cast<hookSpace::TMouseEvent*>(event)->getCountClick()){
             if (abs(currentPos.x - lastCursorPos.x) > 10 || abs(currentPos.y - lastCursorPos.y) > 10) {
                 // если условие НЕ выполняется, то это двойной клик ЛКМ,
-                qDebug() << "don't double click" << endl;
+                //qDebug() << "don't double click" << endl;
                 timerRun = false;
                 event = createNewClickEvent(type);
             }

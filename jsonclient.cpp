@@ -19,7 +19,7 @@ void hookSpace::JSONClient:: onStopped(){
     Screen *screen;
     display = XOpenDisplay(NULL);
     screen = DefaultScreenOfDisplay(display);*/
-    qDebug() << "start save in json file" << endl;
+    qDebug() << "start save in json file: " <<  PRO_FILE_PWD + QString("/Script.json") << endl;
     QRect rec = QApplication::screens().at(0)->geometry();
 
     QScreen *screen = QApplication::screens().at(0);
