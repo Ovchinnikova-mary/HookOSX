@@ -3,130 +3,81 @@
         {
             "actionSwitch": {
                 "actionId": 1,
-                "xLeft": 634.44921875,
-                "xRight": 684.44921875,
-                "yLeft": 33.5546875,
-                "yRight": 83.5546875
+                "xLeft": 38.46484375,
+                "xRight": 113.46484375,
+                "yLeft": 730.52734375,
+                "yRight": 805.52734375
             },
             "frameNumber": 1,
-            "pictureLink": "Images/MouseEvent0.png"
+            "pictureLink": "hookunix/Images"
         },
         {
             "actionSwitch": {
-                "actionId": 1,
-                "xLeft": 161.46484375,
-                "xRight": 211.46484375,
-                "yLeft": 611.51171875,
-                "yRight": 661.51171875
+                "actionId": 13,
+                "finishXLeft": 0,
+                "finishXRight": 50,
+                "finishYLeft": 0,
+                "finishYRight": 50,
+                "startXLeft": 0,
+                "startXRight": 50,
+                "startYLeft": 0,
+                "startYRight": 50,
+                "switchPictures": [
+                    {
+                        "pictureLink": "hookunix/Images",
+                        "pictureNumber": 1,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "pictureLink": "hookunix/Images",
+                        "pictureNumber": 2,
+                        "x": 0,
+                        "y": 0
+                    },
+                    {
+                        "pictureLink": "hookunix/Images",
+                        "pictureNumber": 3,
+                        "x": 0,
+                        "y": 0
+                    }
+                ]
             },
             "frameNumber": 2,
-            "pictureLink": "Images/MouseEvent1.png"
+            "pictureLink": "hookunix/Images"
         },
         {
             "actionSwitch": {
-                "actionId": 12,
-                "key": "H",
-                "modKey": "Shift"
+                "actionId": 15,
+                "switchPictures": [
+                    {
+                        "pictureLink": "hookunix/Images",
+                        "pictureNumber": 1
+                    }
+                ],
+                "ticksCount": 2
             },
             "frameNumber": 3,
-            "pictureLink": "Images/KeyBoardEvent1.png"
+            "pictureLink": "hookunix/Images"
         },
         {
             "actionSwitch": {
-                "actionId": 9,
-                "key": "E"
+                "actionId": 5,
+                "xLeft": 848.44921875,
+                "xRight": 923.44921875,
+                "yLeft": 232.5625,
+                "yRight": 307.5625
             },
             "frameNumber": 4,
-            "pictureLink": "Images/KeyBoardEvent2.png"
+            "pictureLink": "hookunix/Images"
         },
         {
             "actionSwitch": {
                 "actionId": 9,
-                "key": "L"
+                "key": "G"
             },
             "frameNumber": 5,
-            "pictureLink": "Images/KeyBoardEvent3.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "L"
-            },
-            "frameNumber": 6,
-            "pictureLink": "Images/KeyBoardEvent4.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "O"
-            },
-            "frameNumber": 7,
-            "pictureLink": "Images/KeyBoardEvent5.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "Space"
-            },
-            "frameNumber": 8,
-            "pictureLink": "Images/KeyBoardEvent6.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "W"
-            },
-            "frameNumber": 9,
-            "pictureLink": "Images/KeyBoardEvent7.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "O"
-            },
-            "frameNumber": 10,
-            "pictureLink": "Images/KeyBoardEvent8.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "R"
-            },
-            "frameNumber": 11,
-            "pictureLink": "Images/KeyBoardEvent9.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "L"
-            },
-            "frameNumber": 12,
-            "pictureLink": "Images/KeyBoardEvent10.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "D"
-            },
-            "frameNumber": 13,
-            "pictureLink": "Images/KeyBoardEvent11.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 12,
-                "key": "D1",
-                "modKey": "Shift"
-            },
-            "frameNumber": 14,
-            "pictureLink": "Images/KeyBoardEvent13.png"
-        },
-        {
-            "actionSwitch": {
-                "actionId": 9,
-                "key": "Return"
-            },
-            "frameNumber": 15,
-            "pictureLink": "Images/KeyBoardEvent14.png"
+            "pictureLink": "hookunix/Images"
         }
     ],
     "pictureHeight": 768,

@@ -278,8 +278,8 @@ void hookSpace::TMouseEvent::convertSpecificToJson(QJsonObject *&switchData){
             (mouseButton=="Left") ?actionSwitch.insert("actionId",1):  actionSwitch.insert("actionId",5);
         actionSwitch.insert("xLeft", point.x);
         actionSwitch.insert("yLeft", point.y);
-        actionSwitch.insert("xRight", point.x+50);
-        actionSwitch.insert("yRight", point.y+50);
+        actionSwitch.insert("xRight", point.x+75);
+        actionSwitch.insert("yRight", point.y+75);
       //  switchData->insert("actionSwitch",actionSwitch);
 
     }

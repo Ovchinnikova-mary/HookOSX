@@ -27,6 +27,7 @@ namespace hookSpace {
 
 Q_DECLARE_METATYPE(hookSpace::ModifierNames)
 
+
 class hookSpace::TModifier : public QObject{
 Q_OBJECT
 public:
